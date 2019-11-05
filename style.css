@@ -37,7 +37,7 @@
     margin-block-end: 0.60rem;
     display:block;
     font-weight: bold;
-    font-family: "Libre Franklin","Helvetica";
+    font-family: "Libre Franklin","Helvetica","San-serif";
     
 
 }
@@ -55,7 +55,7 @@
 
     text-align: center;
     display: block;
-    font-family: "Libre Franklin","Helvetica";
+    font-family: "Libre Franklin","Helvetica","San-serif";
     margin-block-end: 0.60rem;
 
     
@@ -76,7 +76,7 @@ a {
 
 .left-text{
     display: block;
-    font-family: "Libre Franklin","Helvetica";
+    font-family: "Libre Franklin","Helvetica","San-serif";
     margin-block-end: 0.60rem;
     text-align: center;
     padding: 0 22rem 0 0;
@@ -85,7 +85,7 @@ a {
 .main-text{
     text-align: center;
     display: block;
-    font-family: "Libre Franklin","Helvetica";
+    font-family: "Libre Franklin","Helvetica","San-serif";
     margin-block-end: 1rem;
 
 }
@@ -103,6 +103,28 @@ a {
 .footer-text{
     text-align: center;
     display: block;
-    font-family: "Libre Franklin","Helvetica";
+    font-family: "Libre Franklin","Helvetica","San-serif";
     
+}
+.table{
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-th{
+    padding: 20px 20px 20px 20px;
+    border: 1px solid black;
+    
+    
+
+}
+.table-td{
+    padding: 30px 0px 30px 30px;
+    border: 1px solid black;
+
+}
+
+body{
+    font-family: "San-serif","Arial","Helvetica"; 
 }
